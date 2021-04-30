@@ -106,62 +106,7 @@ display: none;
         display: none;
     }
     [id^=btn]:checked + ul{ display: block;
-     
     }
-
-  
 }
 
-.im-1 {
-    width: 100%;
-    background: url(/img/libros.jpg) no-repeat;
-    background-size: cover;
-    height: 400px;
-}
-.im-2 {
-    width: 100%;
-    background: url(/img/177497.jpg) no-repeat;
-    background-size: cover;
-    height: 500px;
-}
-.im-3 {
-    width: 100%;
-    background: url(https://www.softzone.es/app/uploads-softzone.es/2020/06/Programaci%C3%B3n-GO.jpg) no-repeat;
-    background-size: cover;
-    height: 500px;
-}
-
-.slider{
-    overflow: hidden;
-}
-
-.slider ul{
-    display: flex;
-    padding: 0;
-    width: 400%;
-    animation: cambio 20s infinite;
-}
-.slider li{
-    width: 100%;
-    list-style: none;
-}
-.slider img{
-    width: 1600px;
-    height: 600px;
-}
-
-@keyframes cambio {
-    0% { margin-left: 0;}
-    20% {margin-left: 0;}
-
-    25% {margin-left: -135%;}
-    45% {margin-left: -140%;}
-
-    50% {margin-left: -275%;}
-    70% {margin-left: -280%;}
-
-    75% {margin-left: -415%;}
-    100% {margin-left: -420%;}
-
-}
 
