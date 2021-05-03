@@ -1,5 +1,6 @@
 
 *{
+   background: #3854b1;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,6 +14,7 @@ body{
 nav{
     background: #1b1b1b;
 
+
 }
 nav::after{
     content: '';
@@ -23,17 +25,20 @@ nav::after{
 
 nav .logo{
     float: left;
-    color: white;
-    font-size: 27px;
-    font-weight: 600;
-    line-height: 70px;
+  padding-top: 0px;
+  padding-left: 8px;
+    background-color: #1b1b1b;
    
+}
+#logo{
+    display: none;
 }
 nav ul{
     float: right;
     list-style: none;
     margin-right: 40px;
     position: relative;
+    background: #1b1b1b;
 
 
 }
@@ -47,6 +52,7 @@ nav ul li{
 }
 
 nav ul li a{
+    background: #1b1b1b;
     color: white;
     text-decoration: none;
     line-height: 70px;
@@ -70,19 +76,24 @@ display: none;
     nav ul{
         margin-right: 0px;
         float: left;
+        background-color: #1b1b1b;
     }
+
     nav .logo{
-        padding-left: 30px;
+        
+
+        padding-right: 20px;
         width: 100%;
+        background-color: #1b1b1b;
     }
     nav ul li{
-        
+        background-color: #1b1b1b;
         display: block;
         width: 100%;
     }
     nav ul li a{
         border: none;
-         
+        background-color: #1b1b1b;
      }
     .show{
         display: block;
@@ -91,15 +102,18 @@ display: none;
         padding: 0 20px;
         line-height: 70px;
         cursor: pointer;
+        background-color: #1b1b1b;
     }
     .icon{
         display: block;
         color: white;
         position: absolute;
-        right: 40px;
+        right: 20px;
+        padding-left: 10px;
         line-height: 70px;
-        font-size: 25px;
+        font-size: 40px;
         cursor: pointer;
+        background-color: #1b1b1b;
 
     }
     ul{
@@ -109,4 +123,24 @@ display: none;
     }
 }
 
+.carousel-inner{
+    margin-top: 0;
+}
+.carousel-indicators{
+    background: transparent;
 
+}
+
+
+.card{
+    margin-top: 25px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body,.card-title,.card-text{
+    
+    background-color: rgb(228, 228, 228);
+  
+}
