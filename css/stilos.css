@@ -1,6 +1,6 @@
 
 *{
-   background: #3854b1;
+   background: #2f353d;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -143,4 +143,20 @@ display: none;
     
     background-color: rgb(228, 228, 228);
   
+}
+
+.img-1{
+    background-image: url('/img/libros.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+.img-2{
+    background-image: url('/img/177497.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+.info{
+    color:#33ffff
 }
