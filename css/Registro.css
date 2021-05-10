@@ -1,0 +1,31 @@
+:root{
+    --dark: #1b1b1b;
+    --dark-k:#2f353d;
+    --light: #ffffff;
+}
+body{
+    font-family: 'Share Tech', sans-serif;
+    font-weight: 300;
+    color: var(--light);
+}
+
+.bg-dark{
+    background-color: var(--dark) !important;
+}
+.bg-dark-x{
+    background-color: var(--dark-k) !important;
+}
+.form-control, btn{
+    min-height: 2.125rem;
+    line-height: initial;
+}
+.floatingInputGrid{
+    color: #ffffff;
+}
+input{
+    min-height: 2.125rem;
+}
+.carousel-caption{
+    padding-bottom: 40%;
+    padding-top: 50%;
+}

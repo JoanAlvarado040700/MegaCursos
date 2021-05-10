@@ -73,7 +73,14 @@ display: none;
 
 
 @media all and (max-width: 968px){
+
+   
+
     nav ul{
+
+      
+        
+    
         margin-right: 0px;
         float: left;
         background-color: #1b1b1b;
@@ -87,15 +94,19 @@ display: none;
         background-color: #1b1b1b;
     }
     nav ul li{
+        
         background-color: #1b1b1b;
         display: block;
         width: 100%;
     }
     nav ul li a{
+   
+       
         border: none;
         background-color: #1b1b1b;
      }
     .show{
+        
         display: block;
         color: white;
         font-size: 18px;
@@ -103,8 +114,10 @@ display: none;
         line-height: 70px;
         cursor: pointer;
         background-color: #1b1b1b;
+
+        
     }
-    .icon{
+    .icon{ 
         display: block;
         color: white;
         position: absolute;
@@ -117,9 +130,17 @@ display: none;
 
     }
     ul{
+        
         display: none;
     }
-    [id^=btn]:checked + ul{ display: block;
+    [id^=btn]:checked + ul{ 
+        display: block;
+        margin: 0 0.5rem;
+        
+        animation:fadeIn; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 1s; /* don't forget to set a duration! */
+        
+        display: block;
     }
 }
 
