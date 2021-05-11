@@ -26,7 +26,7 @@
 <div class="row g-2">
   <div class="col-md">
     <div class="form-floating">
-      <input type="text" class="form-control bg-dark-x border-0" id="floatingInputGrid" placeholder="Fulano">
+      <input type="text" class="form-control bg-dark-x border-0" id="nombre" placeholder="Fulano">
       <label for="floatingInputGrid">Nombre</label>
     </div>
   </div>
@@ -34,7 +34,7 @@
   <!--Apellido-->
   <div class="col-md">
     <div class="form-floating">
-        <input type="text" class="form-control bg-dark-x border-0" id="floatingInputGrid" placeholder="Apellido">
+        <input type="text" class="form-control bg-dark-x border-0" id="apellido" placeholder="Apellido">
         <label for="floatingInputGrid ">Apellido </label>
       </div>
   </div>
@@ -44,13 +44,13 @@
 <!--Correo-->
 <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label font-weight-bold">Correo electronico</label>
-    <input type="email" class="form-control bg-dark-x border-0" placeholder="Ingrese su correo" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input type="email" class="form-control bg-dark-x border-0" placeholder="Ingrese su correo" id="correo" aria-describedby="emailHelp">
   </div>
 
 <!--Contraseña-->
 <div class="row g-3 align-items-center">
     <div class="col-auto">
-      <input type="password" placeholder="Contraseña" id="inputPassword6" class="form-control bg-dark-x border-0" aria-describedby="passwordHelpInline">
+      <input type="password" placeholder="Contraseña" id="contraseña" class="form-control bg-dark-x border-0" aria-describedby="passwordHelpInline">
     </div>
     <div class="col-auto">
       <span id="passwordHelpInline" class="form-text">
@@ -60,7 +60,8 @@
   </div>
   <div class="mb-3 form-check">
 </div>
-<button type="submit" class="btn btn-primary w-100">Iniciar secion</button>
+<button type="submit" class="btn btn-primary w-100">Registrarse</button>
+<p class="warnings" id="warnings" ></p>
     <p class="font-weight-bold text-center text-muted">Iniciar secion con</p>
           <div class="d-flex justify-content-around" >
             <button type="submit" class="btn btn-outline-light flex-grow-1 mr-2"><i class="fab fa-google lead mr-2"></i> Google</button>
